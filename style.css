@@ -1,0 +1,113 @@
+/* General Styles */
+body {
+    font-family: 'Poppins', Arial, sans-serif;
+    background: linear-gradient(135deg, #ffd1dc, #a1c4fd);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    color: #333;
+}
+
+/* Container */
+.container {
+    background: rgba(255, 255, 255, 0.9);
+    padding: 30px 40px;
+    border-radius: 20px;
+    box-shadow: 0 12px 25px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 100%;
+    max-width: 400px;
+    transition: all 0.3s ease;
+}
+
+/* Headings */
+h1, h2 {
+    color: #6b6b6b;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    font-size: 28px;
+}
+
+/* Forms */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    margin-top: 15px;
+}
+
+form input {
+    padding: 14px;
+    font-size: 18px;
+    border: 2px solid #a1c4fd;
+    border-radius: 12px;
+    outline: none;
+    transition: all 0.3s ease;
+    color: #333;
+    background-color: #f4f8ff;
+}
+
+form input:focus {
+    border-color: #ffd1dc;
+    box-shadow: 0 0 12px rgba(255, 209, 220, 0.7);
+    background-color: #fff9fc;
+}
+
+/* Buttons */
+button, a.button {
+    background: linear-gradient(45deg, #ffd1dc, #a1c4fd);
+    color: #fff;
+    padding: 15px 30px;
+    font-size: 18px;
+    border: none;
+    border-radius: 12px;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 1px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    box-shadow: 0 6px 15px rgba(255, 209, 220, 0.4);
+}
+
+button:hover, a.button:hover {
+    background: linear-gradient(45deg, #a1c4fd, #ffd1dc);
+    transform: scale(1.05);
+    box-shadow: 0 12px 30px rgba(255, 209, 220, 0.5);
+}
+
+/* Error Messages */
+.error {
+    color: #f4a6a6;
+    font-size: 14px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+/* Links */
+a {
+    text-decoration: none;
+    color: #a1c4fd;
+    font-size: 16px;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #ffd1dc;
+}
+
+/* Fun Animations */
+@keyframes bounce {
+    0% { transform: translateY(0); }
+    50% { transform: translateY(-10px); }
+    100% { transform: translateY(0); }
+}
+
+
